@@ -737,7 +737,7 @@ function Dashboard({ session }) {
                 title={!sidebarOpen ? item.label : undefined}
                 style={{
                   display: "flex",
-                  alignItems: "flex-start",
+                  alignItems: "center",
                   gap: sidebarOpen ? 10 : 0,
                   justifyContent: sidebarOpen ? "flex-start" : "center",
                   padding: sidebarOpen ? "10px 12px" : "10px 6px",
